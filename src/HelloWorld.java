@@ -18,13 +18,13 @@ public class HelloWorld {
         System.out.println("\nExercitiul 3\n");
 
         System.out.println(yes == no || grade > amount);
-//        System.out.println(amount == 40.0 || 50.0);
+        System.out.println(amount == 40.0 || amount == 50.0); // Schimbata ca sa compileze
         System.out.println(hiVal != loVal || loVal < 0);
         System.out.println(true || hello.length() > 0);
         System.out.println(hello.isEmpty() && yes);
         System.out.println(grade <= 100 && !false);
         System.out.println(!yes || no);
-//        System.out.println(grade > 75 > amount);
+        System.out.println(grade > 75 && 75 > amount); // Schimbata ca sa compileze
         System.out.println(amount <= hiVal && amount >= loVal);
         System.out.println(no && !no || yes && !yes);
 
